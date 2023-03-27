@@ -9,7 +9,7 @@ from rich.style import Style
 from rich.columns import Columns
 
 # Specify the path to the CSV file
-csv_dir = "/home/slyfox/Desktop/files/"
+csv_dir = "CHANGE ME!"
 
 # Create a new console for displaying the menu and table
 console = Console()
