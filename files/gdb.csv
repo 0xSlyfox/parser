@@ -1,0 +1,40 @@
+Command,Explanation
+file <executable>,Load an executable file into GDB for debugging
+run <arguments>,Start the executable with the specified arguments
+break <function>,Set a breakpoint at the beginning of a function
+break <file>:<line>,Set a breakpoint at a specific line of code in a file
+delete <breakpoint number>,Delete a breakpoint by its number
+disable <breakpoint number>,Disable a breakpoint by its number
+enable <breakpoint number>,Enable a disabled breakpoint by its number
+condition <breakpoint number> <expression>,Set a condition for a breakpoint
+info breakpoints,Display information about all breakpoints
+info functions,Display information about all functions in the executable
+info variables,Display information about all variables in the current scope
+info locals,Display information about all local variables in the current scope
+info threads,Display information about all threads in the current process
+info frame,Display information about the current stack frame
+info program,Display information about the executable file
+set args <arguments>,Set the arguments to be passed to the executable when it is run
+set variable <variable>=<value>,Set the value of a variable
+display <expression>,Display the value of an expression each time execution stops
+undisplay <display number>,Remove a variable from the display list
+watch <expression>,Set a watchpoint on an expression
+rwatch <expression>,Set a read watchpoint on an expression
+awatch <expression>,Set an access watchpoint on an expression
+info watchpoints,Display information about all watchpoints
+continue,Continue execution until the next breakpoint or watchpoint is hit
+next,Execute the next line of code, stepping over function calls
+step,Execute the next line of code, stepping into function calls
+finish,Continue executing until the current function returns
+return <value>,Set the return value of the current function
+up,Move up the call stack to the calling function
+down,Move down the call stack to a function called by the current function
+print <expression>,Display the value of an expression
+whatis <expression>,Display the type of an expression
+ptype <type>,Display the members of a type
+x/<n/f/u/s> <address/expression>,Examine memory at a specified address or expression
+attach <process ID>,Attach to a running process with the specified process ID
+detach,Detach from the currently attached process
+kill,Stop the currently attached process
+core-file <filename>,Load a core dump file for debugging
+source <filename>,Load commands from a script file

@@ -1,0 +1,10 @@
+Switch, Description
+-S, Shutdown the computer (default)
+-R, Reboot the computer
+-H, Put the computer into hibernation mode
+-Hybrid, Perform a hybrid shutdown combining a full shutdown and hibernation mode for fast startup
+-F, Force running applications to close without warning
+-T xx, Set the timeout period before a shutdown/reboot/hibernate to xx seconds (default is 30)
+-C "comment", Add a comment to the reason for the shutdown/reboot/hibernate
+-A, Abort a system shutdown/reboot/hibernate
+-P, Turn off the local computer with no timeout or warning (use with caution)

@@ -1,0 +1,40 @@
+Hash ID,Algorithm
+0,MD5
+100,SHA1
+1400,SHA256
+1700,SHA512
+10100,NTLM
+7100,NTLMv2
+10800,SHA256(Unix)
+10900,SHA512(Unix)
+12000,bcrypt $2*$, Blowfish (Unix)
+12400,bcrypt $2a$, Blowfish (OpenBSD)
+500,MD5(Unix)
+1600,MD5(APR)
+1800,SHA512(Crypt)
+7300,SHA256(Django)
+7400,SHA384(Django)
+7700,SHA512(Django)
+7800,PBKDF2-HMAC-SHA256
+7900,PBKDF2-HMAC-SHA512
+8800,SHA-1(Django)
+9200,bcrypt $2y$, Blowfish (OpenBSD)
+9300,bcrypt $2b$, Blowfish (OpenBSD)
+11800,Argon2d-256
+11900,Argon2d-512
+12001,Argon2i-256
+12002,Argon2i-512
+13000,SHA-3(Keccak)
+13100,SHA-3(Keccak) Customizable Iterations, XOF and more
+13200,ChaCha20
+13300,WPA/WPA2
+13400,SHA-3(Blake2b)
+15000,descrypt, DES(Unix)
+15300,Cisco Type 4 SHA256
+15400,sha256crypt $5$, SHA256 (Unix)
+15500,sha512crypt $6$, SHA512 (Unix)
+15600,iSCSI CHAP Authentication
+15700,BMC (Baseboard Management Controller) Firmware
+15800,PBKDF2-HMAC-MD5
+15900,PBKDF2-HMAC-SHA1
+

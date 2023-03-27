@@ -1,0 +1,34 @@
+Switch,Description
+-sS, TCP SYN scan (default)
+-sT, TCP connect scan
+-sU, UDP scan
+-sV, Version detection
+-O, OS detection
+-p, Scan specified ports
+-Pn, Disable ping scan
+-F, Fast scan (100 most common ports)
+-T4, Aggressive scan timing
+--script, Run Nmap scripts
+--top-ports, Scan top N most common ports
+--open, Only show open ports
+-iL <file>, Input from list of hosts
+-oN <file>, Output scan results to file
+-A, Aggressive scan options (OS detection, version detection, script scanning, and traceroute)
+-v, Increase verbosity level (use -vv or -vvv for even more verbosity)
+-q, Quiet mode (only display output on completion)
+-g <portnum>, Use source port number
+-e <interface>, Use specified network interface
+-D <decoy1,decoy2,...>, Use decoy addresses to hide the source IP address of the scan
+-f, Fragment packets
+-m <number>, Set maximum number of parallel probes
+--reason, Show the reason why a port is in a particular state
+--version-intensity <level>, Set the intensity level for version detection (0-9)
+--max-retries <num>, Set the maximum number of retries for a probe
+--max-rtt-timeout <time>, Set the maximum round-trip time (RTT) timeout for a probe
+--min-hostgroup <num>, Set the minimum number of hosts in a group for parallel host scan
+--min-parallelism <num>, Set the minimum number of probes to run in parallel
+--initial-rtt-timeout <time>, Set the initial round-trip time (RTT) timeout for a probe
+--max-scan-delay <time>, Set the maximum delay between probes
+--min-rate <num>, Set the minimum rate for a scan
+--max-rate <num>, Set the maximum rate for a scan
+--traceroute, Perform traceroute to target hosts
